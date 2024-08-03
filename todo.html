@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple-ToDo-App</title>
+    <link rel="stylesheet" type="text/css" href="todo.css" />
+  </head>
+  <body>
+    <img class="image" src="todo.jpg" />
+<div class="information">
+  <h2 class="login-heading">Add your Tasks</h2>
+  <form id="info-form">
+    <table class="form-group">
+      <tr class="input-group">
+        <td class="label"><label for="date">Date</label></td>
+        <td><input type="date" id="date" placeholder="" /></td>
+      </tr>
+      <tr class="input-group">
+        <td class="label"><label for="text">task</label></td>
+        <td><input type="text" id="text" placeholder="" /></td>
+      </tr>
+     </table>
+    <div class="button">
+      <button type="submit">add</button>
+    </div>
+  </form>
+</div>
+<div class="info">
+  <h2 class="login-heading">To Do List</h2>
+  <div id="info-table">
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Task</th>
+      <th>Done</th>
+      <th>Delete</th>
+      <th></th>
+    </tr>
+    
+  </table>
+
+  </div>
+</div>
+<div class="tasks">
+    <h2 class="login-heading">Completed Tasks </h2> 
+    <ul id="completed-tasks"></ul>
+</div>
+<script src="todo.js"></script>
+</body>   
+</html>
